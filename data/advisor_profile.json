@@ -1,0 +1,13 @@
+{
+  "professor": "Judy Hoffman",
+  "university": "Georgia Institute of Technology",
+  "program": "ML PhD / College of Computing",
+  "research_area": "Computer vision + ML, domain adaptation, robustness, fairness",
+  "representative_paper": "CyCADA: Cycle-Consistent Adversarial Domain Adaptation; 2018; ICML",
+  "paper_link": "https://scholar.google.com/scholar?q=CyCADA%3A+Cycle-Consistent+Adversarial+Domain+Adaptation",
+  "project_family": "trustworthy",
+  "focus": "Computer vision",
+  "value_add_artifact": "adaptive red-team and repair regression harness",
+  "next_step": "Replace seed cases with task-specific failures and verify repairs do not regress safe cases.",
+  "generated_for": "professor outreach value-add starter"
+}
