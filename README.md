@@ -1,10 +1,21 @@
-# VideoGround Robustness Suite: Computer vision for Hoffman-Aligned Research
+# PrivacyStress ML Suite: Computer vision for Hoffman-Aligned Research
 
-A research-grade AI/ML PhD preparation project aligned with **Judy Hoffman** at **Georgia Institute of Technology**.
+A professor-outreach research proposal aligned with **Judy Hoffman** at **Georgia Institute of Technology**.
+
+## For Professor Outreach
+
+This repo is intended to support an honest outreach email. It contains a concrete proposal for what value you can add, but it does **not** yet contain completed experiments or results.
+
+Start here:
+
+- `outreach/value_add_packet.md` - professor-specific contribution plan.
+- `outreach/email_draft.md` - short mail draft you can personalize before sending.
+- `docs/one_page_project_plan.md` - one-page project summary.
+- `PROJECT_STATUS.md` - clear statement of what exists and what does not exist yet.
 
 ## Research Question
 
-Which visual representations stay reliable when scenes, objects, viewpoints, and labels shift away from curated benchmarks?
+How can a focused, reproducible artifact around **Computer vision** create useful research infrastructure for a lab working on **Computer vision + ML, domain adaptation, robustness, fairness**?
 
 ## Advisor Fit
 
@@ -15,16 +26,14 @@ Which visual representations stay reliable when scenes, objects, viewpoints, and
 - **Representative paper:** CyCADA: Cycle-Consistent Adversarial Domain Adaptation; 2018; ICML
 - **Scholar link:** https://scholar.google.com/scholar?q=CyCADA%3A+Cycle-Consistent+Adversarial+Domain+Adaptation
 
-## Research-Grade Deliverable
+## Proposed Research-Grade Deliverable
 
-This repo is scaffolded to become a serious research artifact, not a demo-only project. The finished version should include:
+Build **an adaptive red-team and repair harness for robustness, safety, privacy, or fairness failures** with:
 
-- Reproducible dataset pipeline with raw-data provenance.
-- Strong baselines and locked experiment configs.
-- Original method or evaluation contribution.
-- Ablation studies that isolate what changed.
-- Failure analysis with concrete examples.
-- Paper-style report, limitations, and reproducibility notes.
+- A red-team prompt/data suite with severity labels.
+- Attack or stress-test success metrics.
+- Before/after repair table with regression checks.
+- A failure taxonomy suitable for a short workshop-style report.
 
 ## Quick Start
 
@@ -37,15 +46,15 @@ python -m pytest
 
 ## Repository Map
 
+- `outreach/value_add_packet.md` - value-add plan for this professor.
+- `outreach/email_draft.md` - email draft; personalize before sending.
 - `docs/research_brief.md` - project hypothesis, novelty, methods, and evaluation plan.
-- `docs/experiment_plan.md` - concrete baseline, ablation, and reporting protocol.
+- `docs/one_page_project_plan.md` - one-page project summary.
+- `docs/experiment_plan.md` - baseline, ablation, and reporting protocol.
 - `configs/baseline.yaml` - first experiment configuration placeholder.
-- `src/` - implementation package placeholder.
-- `tests/` - smoke and metric tests placeholder.
-- `reports/` - figures, tables, and final writeup.
 - `reproducibility/commands.md` - exact commands and environment notes.
 - `data/source_programs.csv` - original CSV for traceability.
 
 ## Status
 
-Scaffolded from the Fall 2027 AI PhD programs CSV. Before external use, re-verify professor interests, application dates, and paper/citation metadata.
+Proposal scaffold only. Before external use, verify the professor's current lab page and make a selected repo public or shareable.
